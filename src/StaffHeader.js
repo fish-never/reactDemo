@@ -11,6 +11,7 @@ export default class StaffHeader extends React.Component{
         let selVal=selId.options[selId.selectedIndex].value
         this.props.filtStaff(selVal)
     }
+    //
     handleOrderChange(){
         let selOrder=ReactDOM.findDOMNode(this.refs.selOrder)
         let selVal=selOrder.options[selOrder.selectedIndex].value
